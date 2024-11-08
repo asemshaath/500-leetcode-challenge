@@ -1,1 +1,1 @@
-# 500-leetcode-challenge
+# 500 Leetcode Challenge
