@@ -2,7 +2,7 @@
 ## Overview
 This is a repo where I'm going to share my journey of solving 500 leetcode problems. 
 #### Note: I sloved areound 136 problems but I will redo them and post every problem I do to this repo.
-![alt text](image.png)
+![alt text](pictures/image.png)
 
 
 ## Objectives
