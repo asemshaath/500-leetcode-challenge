@@ -1,7 +1,7 @@
 # 500 Leetcode Challenge
 ## Overview
 This is a repo where I'm going to share my journey of solving 500 leetcode problems. 
-#### Note: I sloved areound 136 problems but I will redo them and post every problem I do to this repo.
+#### Note: I sloved areound 136 problems but I will redo them and post every problem I do to this repo. Do not ask me why I focused on the easy problems lol
 ![alt text](pictures/image.png)
 
 
@@ -11,7 +11,7 @@ This is a repo where I'm going to share my journey of solving 500 leetcode probl
 3) You can trust me that I'm a good software engineer
 
 ## Progress so far
-Problems solved: 0
+Problems solved: 1
 
 Brain cells lost: Too many to count 🧠
 
