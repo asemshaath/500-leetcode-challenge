@@ -17,9 +17,9 @@ Brain cells lost: Too many to count 🧠
 
 
 ## Disclaimer
-1) All the solutions will be mine, maybe not all the time sometimes I rely on discussions and leetcode editorial
-2) Do not blame me when your machine blows by using my code I'm not responsible do not waste your money to sue me
-3) This is all for my personal refrence but feel free to learn from my dumb mistakes
+1) All the solutions will be mine, maybe not all the time sometimes I rely on discussions and leetcode editorial but not chatgpt.
+2) Do not blame me when your machine blows by using my code I'm not responsible do not waste your money to sue me.
+3) This is all for my personal refrence but feel free to learn from my dumb mistakes.
 
 
 You're welcome 
