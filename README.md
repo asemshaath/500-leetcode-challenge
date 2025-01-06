@@ -21,9 +21,9 @@ Brain cells lost: Too many to count 🧠
 2) Do not blame me when your machine blows by using my code I'm not responsible do not waste your money to sue me.
 3) This is all for my personal refrence but feel free to learn from my dumb mistakes.
 
-## Quick Notes Per Problem:
+## Quick Notes and Concerns Per Problem:
 1930 - solution time is O(N^2) but can be met with O(N)
-
+1249 - have messy code and will fix later
 
 
 You're welcome 
