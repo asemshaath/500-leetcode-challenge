@@ -16,13 +16,6 @@ class Solution:
                 cx, cy = curr
                 x, y = direction
 
-                # cx = cx + x * cmd
-                # cy = cy + y * cmd
-                
-                # curr = (cx, cy)
-
-                # distance = max(distance, cx**2 + cy**2)
-
                 for _ in range(cmd):
                     cx = cx + x
                     cy = cy + y
