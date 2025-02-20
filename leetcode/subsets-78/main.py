@@ -16,3 +16,18 @@ class Solution:
         helper(0, tracker)
             
         return res
+# new solotion (iterative)
+
+class Solution2:
+    def subsets(self, nums: List[int]) -> List[List[int]]:
+        res = [[]]
+
+        for n in nums:
+            tracker = []
+            for el in res:
+                tmp = el.copy()
+                tmp.append(n)
+                tracker.append(tmp)
+            res.extend(tracker)
+            
+        return res
