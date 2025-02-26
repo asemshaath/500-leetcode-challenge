@@ -6,7 +6,7 @@ This is a repo where I'm going to share my journey of solving 500 leetcode probl
 
 
 ## Objectives
-1) Make my github account looks cool so I can flex on other developers with my commits dashboard (I heard someone got a 500k job offer for having nice commits dashboard, why not me :( )
+1) Make my github account looks cool so I can flex on other developers with my commits dashboard. **I heard someone got a 500k job offer for having nice commits dashboard, why not me :(**
 2) Show people that I really do leetcode. I do leetcode. 
 3) You can trust me that I'm a good software engineer
 
