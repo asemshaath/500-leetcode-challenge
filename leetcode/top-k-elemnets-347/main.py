@@ -25,3 +25,38 @@ class Solution:
         return res
 
 
+
+# new sol using heaps
+
+
+class Solution2:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        
+        occ = {}
+
+        for n in nums:
+            if n not in occ:
+                occ[n] = 1
+            else:
+                occ[n] += 1
+        
+
+        oc = list(occ.items())
+        h = []
+        # print(h)
+      
+        
+        for n, c in oc:
+            heappush(h, (c, n))
+            if len(h) > k:
+                heappop(h)
+        
+        res = [n for _, n in h]
+        return res
+
+
+
+
+
+
+
