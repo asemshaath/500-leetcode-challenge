@@ -26,3 +26,20 @@ def search(self, nums, target):
 # You can test your code here or simply just copy it and paste it to leetcode
 
 
+# update 
+
+class Solution2:
+    def search(self, nums: List[int], target: int) -> int:
+        l = 0
+        r = len(nums) - 1
+
+        while r - l >= 0:
+            mid = ((r - l) // 2) + l
+            if nums[mid] < target:
+                l = mid + 1
+            elif nums[mid] > target:
+                r = mid - 1
+            elif nums[mid] == target:
+                return mid
+        
+        return -1
