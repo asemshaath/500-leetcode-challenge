@@ -28,7 +28,5 @@ Brain cells lost: Too many to count 🧠
 
 ## Last but Not Least
 
-```
-You're welcome 
-Happy Leetcoding :)
-```
+You're welcome and Happy Leetcoding :)
+
