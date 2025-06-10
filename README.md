@@ -1,7 +1,7 @@
 # 500 Leetcode Challenge
 ## Overview
 This is a repo where I'm going to share my journey of solving 500 leetcode problems. 
-#### Note: I sloved around 136 problems since the time creating this repo but I will redo them and post every problem I do to this repo. Do not ask me why I focused on the easy problems lol
+#### Note: I solved around 136 problems since the time creating this repo but I will redo them and post every problem I do to this repo. Do not ask me why I focused on the easy problems lol
 ![alt text](pictures/image.png)
 
 
@@ -19,7 +19,7 @@ Brain cells lost: Too many to count 🧠
 ## Disclaimer
 1) All the solutions will be mine, maybe not all the time sometimes I rely on discussions and leetcode editorial but not chatgpt.
 2) Do not blame me when your machine blows by using my code I'm not responsible do not waste your money to sue me.
-3) This is all for my personal refrence but feel free to learn from my dumb mistakes.
+3) This is all for my personal reference but feel free to learn from my dumb mistakes.
 
 ## Quick Notes and Concerns Per Problem
 * 1930 - solution time is O(N^2) but can be met with O(N)
