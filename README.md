@@ -26,7 +26,7 @@ Brain cells lost: Too many to count 🧠
 * 1249 - have messy code and will fix later
 * 23 - need to fix the time complexity and do better
 * 572 - need to write a cleaner code
-
+* 230 - better space and time complexity can be done
 ## Last but Not Least
 
 You're welcome and Happy Leetcoding :)
