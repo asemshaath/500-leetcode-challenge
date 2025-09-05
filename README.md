@@ -10,7 +10,7 @@ This is a repo where I'm going to share my journey of solving 500 leetcode probl
 2) Show people that I really do leetcode. I do leetcode. 
 3) You can trust me that I'm a good software engineer
 
-## Progress so far
+## Progress so Far
 Problems solved: 90
 
 Brain cells lost: Too many to count 🧠
@@ -29,5 +29,5 @@ Brain cells lost: Too many to count 🧠
 * 230 - better space and time complexity can be done
 ## Last but Not Least
 
-You're welcome and Happy Leetcoding :)
+`You're welcome and Happy Leetcoding :)`
 
