@@ -16,8 +16,8 @@ class Solution:
         helper(0, tracker)
             
         return res
-# new solotion (iterative)
 
+# new solotion (iterative)
 class Solution2:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         res = [[]]
@@ -30,4 +30,23 @@ class Solution2:
                 tracker.append(tmp)
             res.extend(tracker)
             
+        return res
+
+# Another solution after a while
+class Solution3:
+    def subsets(self, nums: List[int]) -> List[List[int]]:
+        res = []
+
+        def helper(lst, acc):
+            if not lst:
+                res.append(acc)
+                return
+           
+            helper(lst[1:], acc + [lst[0]])
+            helper(lst[1:], acc)
+
+            
+
+        helper(nums, [])
+
         return res
