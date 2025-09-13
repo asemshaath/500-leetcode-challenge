@@ -27,6 +27,10 @@ Brain cells lost: Too many to count 🧠
 * 23 - need to fix the time complexity and do better
 * 572 - need to write a cleaner code
 * 230 - better space and time complexity can be done
+
+## Interesting External Problems
+* https://brainly.com/question/33945342
+  
 ## Last but Not Least
 
 `You're welcome and Happy Leetcoding :)`
