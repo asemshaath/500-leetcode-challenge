@@ -1,8 +1,11 @@
 # 500 Leetcode Challenge
 ## Overview
 This is a repo where I'm going to share my journey of solving 500 leetcode problems. 
-#### Note: I solved around 136 problems since the time creating this repo but I will redo them and post every problem I do to this repo. Do not ask me why I focused on the easy problems lol
+>Note: I solved around 136 problems since the time creating this repo but I will redo them and post every problem I do to this repo. Do not ask me why I focused on the easy problems lol.
 ![alt text](pictures/image.png)
+
+## Current Leetcode Progress
+![LeetCode Stats](https://leetcard.jacoblin.cool/AsemShaath?theme=light&font=Mate&ext=activity)
 
 
 ## Objectives
