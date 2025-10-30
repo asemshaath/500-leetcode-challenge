@@ -14,7 +14,7 @@ This is a repo where I'm going to share my journey of solving 500 leetcode probl
 3) You can trust me that I'm a good software engineer
 
 ## Progress so Far
-Problems solved: 123
+Problems solved: 124
 
 Brain cells lost: Too many to count 🧠
 
