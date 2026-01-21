@@ -21,3 +21,28 @@ class Solution:
 
         return memo[start]
 
+
+
+class Solution2:
+    def rob(self, nums: List[int]) -> int:
+        """
+        [2,1,1,2]
+             i
+        [2,2]
+        
+        """
+
+        if len(nums) == 1:
+            return nums[0]
+        
+        dp = [nums[0], max(nums[0], nums[1])]
+
+        for i in range(2, len(nums)):
+            new_amount = max(dp[i-1], dp[i - 2] + nums[i])
+            dp.append(new_amount)
+        
+        return dp[-1]
+
+
+            
+
