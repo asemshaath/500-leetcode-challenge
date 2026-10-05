@@ -45,3 +45,45 @@ class Solution2:
         return nums[l]
 
 
+class Solution3:
+    def findMin(self, nums: List[int]) -> int:
+        """
+        3,4,5,1,2
+
+        nums[l] = 3
+        nums[r] = 2
+
+        Unrotated arrays must have nums[r] > nums[l]
+        return nums[0]
+        else
+
+        l = 0
+        r = 4
+        m = 4 // 2 = 2
+
+        3,4,5,1,2
+              l r
+
+        2,4,5,6,7,0,1
+
+        4,5,6,7,0,1,2
+              l     r
+
+        """
+
+        l = 0
+        r = len(nums) - 1
+
+        if nums[l] < nums[r]:
+            return nums[0]
+
+        while r - l > 1:
+            m = (l + r) // 2
+
+            if nums[m] > nums[l]:
+                l = m
+            else:
+                r = m
+        
+        return nums[r]
+
