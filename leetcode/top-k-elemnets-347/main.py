@@ -60,3 +60,49 @@ class Solution2:
 
 
 
+# another solution
+
+
+class Solution3:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        
+        """
+        [1,1,1,2,2,3]
+        
+        {
+            1:3,
+            2:1,
+            3:0,
+        }
+
+        heap:
+        (occurance * -1, nums[i])
+        (-3, 1)
+        
+        """
+
+        occ = dict()
+        heap = []
+        
+        for n in nums:
+            if occ.get(n):
+                occ[n] += 1
+            else:
+                occ[n] = 1
+        
+        for key, val in occ.items():
+            heapq.heappush(heap, (val *-1, key))
+        
+        res = []
+
+        for _ in range(k):
+            _, number = heapq.heappop(heap)
+            res.append(number)
+
+        return res
+
+        
+
+
+        
+
