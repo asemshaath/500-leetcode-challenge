@@ -83,3 +83,41 @@ class Solution:
 
 
 
+# another attempt after long time
+
+class Solution3:
+    def numIslands(self, grid: List[List[str]]) -> int:
+        """
+
+        dfs -> stack
+
+        iterate through every unit
+        if land, run traverse
+
+
+        """
+
+        num_islands = 0
+        visited = set()
+        M = len(grid)
+        N = len(grid[0])
+
+        def traverse(x, y):
+            stack = [(x, y)]
+        
+            while stack:
+                xi, yi = stack.pop()
+                adj = [(xi+1, yi), (xi, yi+1), (xi-1, yi), (xi, yi-1)]
+                adj = [(i, j) for i, j in adj if i >= 0 and i < M and j >= 0 and j < N]
+                valid_adj = [(i,j) for i, j in adj if grid[i][j] == '1' and (i, j) not in visited]
+
+                visited.add((xi, yi))
+                stack.extend(valid_adj)
+
+        for i in range(M):
+            for j in range(N):
+                if grid[i][j] == "1" and (i,j) not in visited:
+                    traverse(i, j)
+                    num_islands+=1
+
+        return num_islands
